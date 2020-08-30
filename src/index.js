@@ -2,6 +2,7 @@ class List {
   constructor (messages = [], name){
     this.messages = messages;
     this.name=name;
+    this.parseFromLocalStorage()
   }
 
   addToLocalStorage () {
